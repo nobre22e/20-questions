@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question text="Is it considered modern art?">
+	<question text="Did it begin prior to the 20th century?" answer="yes">
+		<question text="Did the artists use unmixed color?" answer="yes">
+			<thing answer="yes">Impressionism</thing>
+			<thing answer="no">Post-Impressionism</thing>
+		</question>
+		<question text="Was it an international movement?" answer="no">
+			<question text="Was the art movement considered to be subversive or unconventional?" answer="yes">
+				<question text="Was the art movement reactionary against the establishment?" answer="yes">
+					<question text="Do the artists work primarily on city streets?" answer="yes">
+						<thing answer="yes">Street Art</thing>
+						<question text="Does the movement deny a sense of a fixed truth?" answer="no">
+							<thing answer="yes">Post-Modernism</thing>
+							<thing answer="no">Dadaism</thing>
+						</question>
+					</question>
+					<question text="Does the movement focus on the body and taboos?" answer="no">
+						<thing answer="yes">Performance Art</thing>
+						<thing answer="no">Process Art</thing>
+					</question>
+				</question>
+				<question text="Did the artists use images from popular culture or mass media?" answer="no">
+					<thing answer="yes">Pop Art</thing>
+					<thing answer="no">Surrealism</thing>
+				</question>
+			</question>
+			<question text="Did the art movement focus on the emotion that the works created?" answer="no">
+				<question text="Did the movement mostly use abstract representations?" answer="yes">
+					<thing answer="yes">Abstract Expressionism</thing>
+					<thing answer="no">Expressionism</thing>
+				</question>
+				<question text="Did the art movement focus mostly on geometric forms?" answer="no">
+					<question text="Did the artists try to include multiple visual perspectives in one piece?" answer="yes">
+						<thing answer="yes">Cubism</thing>
+						<thing answer="no">Bauhaus</thing>
+					</question>
+					<question text="Did the artists try to be realistic in their representations?" answer="no">
+						<thing answer="yes">Photorealism</thing>
+						<thing answer="no">Fauvism</thing>
+					</question>
+				</question>
+			</question>
+		</question>
+	</question>
+	<thing answer="no">Art Nouveau</thing>
+</question>
